@@ -4,7 +4,7 @@ def expressions(num):
         acc = 0
         for j in range(i, num + 1):
             acc += j
-            if acc == 15:
+            if acc == num:
                 count += 1
                 break
     return count
