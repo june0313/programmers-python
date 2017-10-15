@@ -4,6 +4,8 @@ def expressions(num):
         acc = 0
         for j in range(i, num + 1):
             acc += j
+            if acc > num:
+                break
             if acc == num:
                 count += 1
                 break
